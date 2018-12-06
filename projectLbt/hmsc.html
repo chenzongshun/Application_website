@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="图片循环滚动,循环滚动插件" />
+    <meta name="description" content="兼容PC和移动端的无限循环滚动插件;样式内置;效果流畅;鼠标悬停;支持鼠标滑轮控制;支持左右箭头控制;调用相当方便！" />
+    <meta name="author" content="Li Yuxi" />
+    <meta name="remark" content="Wang Yunhong -- The love of my life." />
+    <title>Servlet商城轮播</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script>
+	
+   var shouJiTip = '\n\n检测到手机端访问！当前如果是直接使用QQ或微信查看项目可能回不来网站的情况，因为超链接太多，一个个读文件替换超链接成主页的算法实在太难，所以请通过域名www.czssix.com来跳转到主页，域名如果通过审核了将可以进行访问，如果访问失败请下面长按文本框复制服务器地址，然后打开手机上的浏览器如UC、QQ、谷歌浏览器等的网址框长按并粘贴访问，没办法，腾讯域名正在审核中，非常抱歉。';
+   var jsTip = '即将跳转到\n';
+
+function browserRedirect(tip,href) {
+	var sUserAgent = navigator.userAgent.toLowerCase();
+	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+	var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+	var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+	var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+	var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+	var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+	if(!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+		if(confirm(tip+'\n如果想要回到我的网站首页请直接关闭当前标签页，谢谢')){
+			window.open(href);
+		}
+	} else { // 手机平板端
+		// msg消息
+		if(prompt(tip+shouJiTip,'http://118.89.226.190')) {
+			window.open(href);
+		}
+	}
+}
+
+</script>
+
+    <div class="demo">
+        <a class="control prev"></a><a class="control next abs"></a><!--自定义按钮，移动端可不写-->
+        <div class="slider"><!--主体结构，请用此类名调用插件，此类名可自定义-->
+            <ul>
+            	<!--<li><a href="" ><img src="images/wlmannager.png"  alt="物流管理系统" /></a></li> 原始-->
+
+<!--<li><a href="" onclick=" if(prompt('这个项目是xxx')){ window.location.href="http://118.89.226.190/wl"; }"><img src="images/wlmannager.png"  alt="物流管理系统" /></a></li>-->
+            	<!--<li><a target="_blank" href="http://www.baidu.com" ><img src="images/wlmannager.png"  alt="物流管理系统" /></a></li>-->
+            	
+<!--<li><a onclick="browserRedirect(jsTip+'http://118.89.226.190/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://118.89.226.190/hmsc')" href="javascript:void(0);" ><img src="images/hmsc/dnbg.png"  alt="电脑办公分界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://118.89.226.190/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://118.89.226.190/hmsc')" href="javascript:void(0);" ><img src="images/hmsc/login.png"  alt="商城登陆界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://118.89.226.190/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://118.89.226.190/hmsc')" href="javascript:void(0);" ><img src="images/hmsc/spxq.png"  alt="订单详情界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://118.89.226.190/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://118.89.226.190/hmsc')" href="javascript:void(0);" ><img src="images/hmsc/gwc.png"  alt="购物车界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://118.89.226.190/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://118.89.226.190/hmsc')" href="javascript:void(0);" ><img src="images/hmsc/ybzf.png"  alt="调用易宝支付接口界面" /></a></li>-->
+
+<li><a onclick="browserRedirect(jsTip+'http://www.czssix.com/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://www.czssix.com/hmsc')" href="javascript:void(0);" ><img src="http://r.photo.store.qq.com/psb?/V11FNtQD0uHgdQ/tm91lI.l8SKRV5Tihb2cJmAITOQH65lnqTRAJ2Qsr*U!/r/dDABAAAAAAAA"  alt="电脑办公分界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://www.czssix.com/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://www.czssix.com/hmsc')" href="javascript:void(0);" ><img src="http://r.photo.store.qq.com/psb?/V11FNtQD0uHgdQ/GYP37NMjv6HSRBbGLlNI3RFPa2*df0Hwx545CL4yVs0!/r/dEcBAAAAAAAA"  alt="商城登陆界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://www.czssix.com/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://www.czssix.com/hmsc')" href="javascript:void(0);" ><img src="http://r.photo.store.qq.com/psb?/V11FNtQD0uHgdQ/4aoMtWeD*38a0x7AaU5BqrQnrslnhs.*0M4Ih9.kwx8!/r/dDMBAAAAAAAA"  alt="订单详情界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://www.czssix.com/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://www.czssix.com/hmsc')" href="javascript:void(0);" ><img src="http://r.photo.store.qq.com/psb?/V11FNtQD0uHgdQ/PS5QcHPCA.1jWLEPtK1.MVpB6lA7qE9UDuKXO53ZST4!/r/dDEBAAAAAAAA"  alt="购物车界面" /></a></li>
+<li><a onclick="browserRedirect(jsTip+'http://www.czssix.com/hmsc\nJsp+Servlet商城项目首页，用户名密码均为admin','http://www.czssix.com/hmsc')" href="javascript:void(0);" ><img src="http://r.photo.store.qq.com/psb?/V11FNtQD0uHgdQ/5D*Fe*Fej*qhARvSyzOUZiIQGqyiVmnbmUwP3pxdH90!/r/dDIBAAAAAAAA"  alt="调用易宝支付接口界面" /></a></li>
+            	
+            	
+            	<!--<li><a onclick="if(confirm(shouJiTip)){window.open('http://118.89.226.190/wl')};" href="javascript:void(0);" ><img src="images/wlmannager.png"  alt="物流管理系统" /></a></li>
+            	-->
+            	
+                <!--<li><img onclick="if(confirm('这个项目是xxx')){window.open('http://118.89.226.190/wl')};" 
+                	src="images/wlmannager.png" onclick="window.location.href='http://118.89.226.190/wl'"  alt="物流管理系统" /><!--<div class="clj"><a>物流管理系统</a></div>--></li>-->
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/YuxiSlider.jQuery.min.js"></script>
+    <script>
+    $(".slider").YuxiSlider({
+        width:800, //容器宽度
+        height:450, //容器高度
+        control:$('.control'), //绑定控制按钮
+        during:4000, //间隔4秒自动滑动
+        speed:800, //移动速度0.8秒
+        mousewheel:true, //是否开启鼠标滚轮控制
+        direkey:true //是否开启左右箭头方向控制
+    });
+    </script>
+
+</html>

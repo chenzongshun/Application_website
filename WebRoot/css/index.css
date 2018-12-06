@@ -1,0 +1,123 @@
+/*项目提示文字样式,如SSH做的物流管系统*/
+@media screen and (max-width: 1090px) {
+	/*如果是手机*/
+	.shunMtcx {
+		font-size: 15pt;
+		z-index: 20;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	/*如果是电脑*/
+	.shunMtcx {
+		font-size: 2em;
+		z-index: 20;
+	}
+}
+
+
+/*每个项目的div*/
+
+@media screen and (max-width: 1090px) {
+	/*如果是手机*/
+	.lbtIframe {
+		width: 100%;
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	/*如果是电脑*/
+	.lbtIframe {
+		width: 100%;
+		height: 540px;
+	}
+}
+
+/*QQ电话联系的css*/
+@media screen and (max-width: 1090px) {
+	/*如果是手机*/
+	/*立即拨打电话图片样式*/
+	#phoneDivImg {
+		width: 70px;
+	}
+	/*立即拨打电话字体样式*/
+	#phoneDiv {
+		height: 200px;
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		color: red;
+		text-align: center;
+		font-size: 13px;
+		font-weight: bolder;
+		/*border: 1px solid gold; */
+		width: 20%;
+	}
+	/*qq*/
+	#qqlx{
+		/*border: 10px solid gold;*/
+		width: 20%;
+		margin: auto;
+		z-index: 100;
+		position: fixed;
+		right: 10px;
+		top: 120px;
+		text-align: center;
+		/*border: 1px solid gold;*/
+	}
+	/*qq*/
+	/*应聘的的的,,,条件?*/
+	#dbdlxw {
+		color: #33FFA2;
+		font-size: 18px;
+	}	
+	/*下载简历*/
+	#xzjl{
+		display: inherit;
+		width: 90%;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	/*如果是电脑*/
+	/*立即拨打电话字体样式*/
+	#phoneDiv {
+		height: 200px;
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bolder;
+		/*border: 1px solid red;*/
+	}
+	/*立即拨打电话图片样式*/
+	#phoneDivImg {
+		width: 200px;
+	}
+	/*应聘的的的,,,条件?*/
+	#dbdlxw {
+		color: #33FFA2;
+		font-size: 18px;
+	}
+	
+	/*qq*/
+	#qqlx{
+		/*border: 1px solid black;*/
+		position: fixed;
+		width: 300px;
+		margin: auto;
+		z-index: 100;
+		height: 200px;
+		right: 30px;
+		top: 300px;
+		font-size: 30px;
+		cursor: pointer;
+		text-align: center;
+	}
+	/*qq*/
+}
+/*QQ电话联系的css*/
+

@@ -1,0 +1,13 @@
+﻿域名  \"www.czssix.com\" 俗称网址,腾讯正在审核，没办法,在腾讯买了一年的的服务器和域名,早就计划好最后半个月把自个儿的应聘网站放出来的,但是没想到哇没想到,域名是需要要备案的,并且至少要20天的时间，所以只能委屈看我网站的人了\n\n临近期末赶忙做了这个项目来展示自己，主要是想在短短的两个月暑期时间来贵公司实习提升自我，毕竟实战是最容易让自己进步的，比自己在学校里的压迫感强一些，所以贵公司如果缺人的话，就把offer砸我头上吧，如果您有意向的话请点击网站中右上角的电话图标与我取得联系，谢谢
+
+很高兴您能驻足观看我的WEB简历，此简历网站初创与今年2月份，当时的我正在学习linux系统部署纯Servlet项目以及云开发，偶见腾讯云打广告于是买了1个月，之后想到是否为自己做一个简历网站好在人才济济的求职人群中露个头，于是便潦草写了个这个网站，后来服务器没有续费自然腾讯云将服务器数据释放了，六月份想到是否能够将WEB简历正式发布出去以寻求实习才发现网站是时候要个域名(www.czssix.com)了，成功发布出去后有公司来招我，结果我一说只能待个暑假的时间就凉了，这次服务器终于要派上用场了哈
+
+
+
+hello，我叫陈宗顺，我是来找实习的，这个网站是我的web简历网站，本人最近还学习了新的技术，如SpringBoot，SpringCloud，没错，是微服务相关，顺带把Docker给学了，我学习能力强，善于与人沟通，能配合好同事的各项工作，为人性情开朗，这次找实习的话其实还是想要在“上海”、“广州”、“深圳”、“长沙”这几个地方的，<span style='color:red;font-size: 70px;font-weight: bolder;'>并且非外包公司</span>，如果缺人的话，就把offer砸我头上吧，如果您有意向的话请点击网站中右上角的电话或者QQ图标与我取得联系，谢谢，下面来张本人近照，可以大概的认识我一下，最后，感谢您能有空来访问我的网站
+
+
+java，html，jsp，css，JavaScript，jQuery，Easyui，Ztree，PingYin4j，Freemarker，WEBService，Lucene，Solr，Solr集群， Quartz，HSSFWorkbook，Apache Shiro，SVN，Gig，Dubbo，Zookeeper，ActiveMq， Struts2，Spring，Hibernate，SpringMvc，Mybatis框架技术，Maven，以及微服务SpringBoot、SpringCloud、Docker 数据库有mysql，oracle，sql server以及readis，Redis搭建集群，比较能熟练使用linux系统，NGINX负载均衡，Tomcat搭集群，会做分布式WEB应用等,另外准备寒假进军Python
+
+
+SpringBoot+SpringCloud，Linux，Docker，Eureka+Ribbon，Html+Css+JavaScript+Jquery+EasyUi，Freemarker，Lucene，Solr，Shiro，Svn+Git，Dubbo+Zookepper，ActiveMq，Mysql+SqlServer+Oracle+Redis
